@@ -18,3 +18,6 @@ I have only tested with numerics and strings at the moment, not waveforms or oth
 
 In future I hope to add more functionality to the node-epics module, including alarm handling etc, and pass this into 
 the node.
+
+MIT License (see license.txt for source)
+Copyright Laurence Stant (SandyLabs) 2015

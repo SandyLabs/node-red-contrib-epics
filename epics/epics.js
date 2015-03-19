@@ -1,3 +1,8 @@
+/*
+	EPICS Node, Copyright 2015 Laurence Stant (SandyLabs)
+	MIT License (see license.txt for source)
+*/
+
 module.exports = function(RED) {
     function EpicsInNode(config) {
 	var epics = require('epics');
