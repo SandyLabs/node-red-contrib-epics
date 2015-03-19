@@ -1,0 +1,63 @@
+<script type="text/javascript">
+    RED.nodes.registerType('epics in',{
+        category: 'input',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+            pv: {value:""}
+        },
+        inputs:0,
+        outputs:1,
+        icon: "bridge.png",
+        label: function() {
+            return this.name||"EPICS";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="epics in">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-pv"><i class="icon-tag"></i> PV</label>
+        <input type="text" id="node-input-pv" placeholder="calc:a">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="epics in">
+    <p>An EPICS node</p>
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('epics out',{
+        category: 'output',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+            pv: {value:""}
+        },
+        inputs:1,
+        outputs:0,
+        icon: "bridge.png",
+        label: function() {
+            return this.name||"EPICS";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="epics out">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-pv"><i class="icon-tag"></i> PV</label>
+        <input type="text" id="node-input-pv" placeholder="calc:a">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="epics out">
+    <p>An EPICS node</p>
+</script>
