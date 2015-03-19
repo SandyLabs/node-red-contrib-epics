@@ -10,7 +10,7 @@
         outputs:1,
         icon: "bridge.png",
         label: function() {
-            return this.name||"EPICS";
+            return this.name||"epics";
         }
     });
 </script>
@@ -27,7 +27,8 @@
 </script>
 
 <script type="text/x-red" data-help-name="epics in">
-    <p>An EPICS node</p>
+    <p>A simple node for receiving updates from an EPICS Process Variable (PV). You must enter a <b>PV Name</b> to connect to.</p>
+    <p>The PV name is sent as <b>msg.pv</b> and the value as <b>msg.payload</b>.</p>
 </script>
 
 <script type="text/javascript">
@@ -42,7 +43,7 @@
         outputs:0,
         icon: "bridge.png",
         label: function() {
-            return this.name||"EPICS";
+            return this.name||"epics";
         }
     });
 </script>
@@ -59,5 +60,6 @@
 </script>
 
 <script type="text/x-red" data-help-name="epics out">
-    <p>An EPICS node</p>
+    <p>A simple node for updating an EPICS Process Variable (PV). You must enter a <b>PV Name</b> to connect to.</p>
+    <p>The value is read from <b>msg.payload</b> and must be of the same datatype as expected by the PV.</p>
 </script>
