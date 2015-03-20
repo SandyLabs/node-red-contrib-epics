@@ -1,0 +1,127 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'publish', './' ]
+2 info using npm@1.3.6
+3 info using node@v0.10.36
+4 verbose publish [ './' ]
+5 verbose cache add [ './', null ]
+6 verbose cache add name=undefined spec="./" args=["./",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: './',
+7 verbose parsed url   path: './',
+7 verbose parsed url   href: './' }
+8 silly lockFile 0ee6c175- ./
+9 verbose lock ./ /home/lstant/.npm/0ee6c175-.lock
+10 verbose tar pack [ '/home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/tmp.tgz',
+10 verbose tar pack   './' ]
+11 verbose tarball /home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/tmp.tgz
+12 verbose folder ./
+13 silly lockFile 04cb2bca-tar tar://./
+14 verbose lock tar://./ /home/lstant/.npm/04cb2bca-tar.lock
+15 silly lockFile 302814ee-99656-0-6797188157215714-tmp-tgz tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/tmp.tgz
+16 verbose lock tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/tmp.tgz /home/lstant/.npm/302814ee-99656-0-6797188157215714-tmp-tgz.lock
+17 silly lockFile 04cb2bca-tar tar://./
+18 silly lockFile 04cb2bca-tar tar://./
+19 silly lockFile 302814ee-99656-0-6797188157215714-tmp-tgz tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/tmp.tgz
+20 silly lockFile 302814ee-99656-0-6797188157215714-tmp-tgz tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/tmp.tgz
+21 verbose tar unpack /home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/tmp.tgz
+22 silly lockFile aceb9710-99656-0-6797188157215714-package tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/package
+23 verbose lock tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/package /home/lstant/.npm/aceb9710-99656-0-6797188157215714-package.lock
+24 silly lockFile 302814ee-99656-0-6797188157215714-tmp-tgz tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/tmp.tgz
+25 verbose lock tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/tmp.tgz /home/lstant/.npm/302814ee-99656-0-6797188157215714-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+29 silly gunzTarPerm extractEntry epics/epics.js
+30 silly gunzTarPerm modified mode [ 'epics/epics.js', 436, 420 ]
+31 silly gunzTarPerm extractEntry epics/epics.html
+32 silly gunzTarPerm modified mode [ 'epics/epics.html', 436, 420 ]
+33 silly gunzTarPerm extractEntry epics/license.txt
+34 silly gunzTarPerm modified mode [ 'epics/license.txt', 436, 420 ]
+35 silly gunzTarPerm extractEntry readme.md
+36 silly gunzTarPerm modified mode [ 'readme.md', 436, 420 ]
+37 silly lockFile aceb9710-99656-0-6797188157215714-package tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/package
+38 silly lockFile aceb9710-99656-0-6797188157215714-package tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/package
+39 silly lockFile 302814ee-99656-0-6797188157215714-tmp-tgz tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/tmp.tgz
+40 silly lockFile 302814ee-99656-0-6797188157215714-tmp-tgz tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/tmp.tgz
+41 verbose tar pack [ '/home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz',
+41 verbose tar pack   '/home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/package' ]
+42 verbose tarball /home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz
+43 verbose folder /home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/package
+44 silly lockFile aceb9710-99656-0-6797188157215714-package tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/package
+45 verbose lock tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/package /home/lstant/.npm/aceb9710-99656-0-6797188157215714-package.lock
+46 silly lockFile 938a67f4--contrib-epics-0-0-1-package-tgz tar:///home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz
+47 verbose lock tar:///home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz /home/lstant/.npm/938a67f4--contrib-epics-0-0-1-package-tgz.lock
+48 silly lockFile aceb9710-99656-0-6797188157215714-package tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/package
+49 silly lockFile aceb9710-99656-0-6797188157215714-package tar:///home/lstant/tmp/npm-2952-iZ3zLkJ9/1426780199656-0.6797188157215714/package
+50 silly lockFile 938a67f4--contrib-epics-0-0-1-package-tgz tar:///home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz
+51 silly lockFile 938a67f4--contrib-epics-0-0-1-package-tgz tar:///home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz
+52 silly lockFile e92ec27a--red-contrib-epics-0-0-1-package /home/lstant/.npm/node-red-contrib-epics/0.0.1/package
+53 verbose lock /home/lstant/.npm/node-red-contrib-epics/0.0.1/package /home/lstant/.npm/e92ec27a--red-contrib-epics-0-0-1-package.lock
+54 silly lockFile e92ec27a--red-contrib-epics-0-0-1-package /home/lstant/.npm/node-red-contrib-epics/0.0.1/package
+55 silly lockFile e92ec27a--red-contrib-epics-0-0-1-package /home/lstant/.npm/node-red-contrib-epics/0.0.1/package
+56 verbose tar unpack /home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz
+57 silly lockFile 208f2964--red-contrib-epics-0-0-1-package tar:///home/lstant/.npm/node-red-contrib-epics/0.0.1/package
+58 verbose lock tar:///home/lstant/.npm/node-red-contrib-epics/0.0.1/package /home/lstant/.npm/208f2964--red-contrib-epics-0-0-1-package.lock
+59 silly lockFile 938a67f4--contrib-epics-0-0-1-package-tgz tar:///home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz
+60 verbose lock tar:///home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz /home/lstant/.npm/938a67f4--contrib-epics-0-0-1-package-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm extractEntry epics/epics.js
+64 silly gunzTarPerm extractEntry epics/epics.html
+65 silly gunzTarPerm extractEntry epics/license.txt
+66 silly gunzTarPerm extractEntry readme.md
+67 silly lockFile 208f2964--red-contrib-epics-0-0-1-package tar:///home/lstant/.npm/node-red-contrib-epics/0.0.1/package
+68 silly lockFile 208f2964--red-contrib-epics-0-0-1-package tar:///home/lstant/.npm/node-red-contrib-epics/0.0.1/package
+69 silly lockFile 938a67f4--contrib-epics-0-0-1-package-tgz tar:///home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz
+70 silly lockFile 938a67f4--contrib-epics-0-0-1-package-tgz tar:///home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz
+71 verbose chmod /home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz 644
+72 verbose chown /home/lstant/.npm/node-red-contrib-epics/0.0.1/package.tgz [ 1000, 1000 ]
+73 silly lockFile 0ee6c175- ./
+74 silly lockFile 0ee6c175- ./
+75 silly publish { name: 'node-red-contrib-epics',
+75 silly publish   version: '0.0.1',
+75 silly publish   description: 'An EPICS node for node-red',
+75 silly publish   author: { name: 'Laurence Stant', email: 'laurence@sandylabs.com' },
+75 silly publish   dependencies: { epics: 'latest' },
+75 silly publish   keywords: [ 'node-red', 'epics' ],
+75 silly publish   'node-red': { nodes: { epics: 'epics/epics.js' } },
+75 silly publish   readme: 'node-red-contrib-epics\n======\n\nThis node allows basic communication with Process Variables (PVs) on an Experimental Physics and Industrial Control \nSystem (EPICS) network. It depends on the [node-epics](http://github.com/RobbieClarken/node-epics) module written by Robbie Clarken.\n\nEnsure either `EPICS_BASE` and `EPICS_HOST_ARCH` are set or\n\n```bash\nexport NODE_EPICS_LIBCA=/path/to/libca\n```\n\nThis release provides a very basic interface with minimal error handling done inside the node-red interface. However, \nall errors should appear either in the debug pane or in the node-red backend console (especially if crashing).\n\nI have only tested with numerics and strings at the moment, not waveforms or other data types. Please see the node-epics\n github page for more information.\n\nIn future I hope to add more functionality to the node-epics module, including alarm handling etc, and pass this into \nthe node.\n\nMIT License (see license.txt for source)\nCopyright Laurence Stant (SandyLabs) 2015\n',
+75 silly publish   readmeFilename: 'readme.md',
+75 silly publish   _id: 'node-red-contrib-epics@0.0.1',
+75 silly publish   dist: { shasum: '4462c961e33b18e9434c6331d48780c28a294507' },
+75 silly publish   _from: './' }
+76 verbose url raw node-red-contrib-epics
+77 verbose url resolving [ 'https://registry.npmjs.org/', './node-red-contrib-epics' ]
+78 verbose url resolved https://registry.npmjs.org/node-red-contrib-epics
+79 info trying registry request attempt 1 at 15:49:59
+80 http PUT https://registry.npmjs.org/node-red-contrib-epics
+81 http 201 https://registry.npmjs.org/node-red-contrib-epics
+82 verbose url raw node-red-contrib-epics
+83 verbose url resolving [ 'https://registry.npmjs.org/', './node-red-contrib-epics' ]
+84 verbose url resolved https://registry.npmjs.org/node-red-contrib-epics
+85 info trying registry request attempt 1 at 15:50:08
+86 http GET https://registry.npmjs.org/node-red-contrib-epics
+87 http 200 https://registry.npmjs.org/node-red-contrib-epics
+88 error publish fail Cannot publish over existing version.
+88 error publish fail Update the 'version' field in package.json and try again.
+88 error publish fail
+88 error publish fail If the previous version was published in error, see:
+88 error publish fail     npm help unpublish
+88 error publish fail
+88 error publish fail To automatically increment version numbers, see:
+88 error publish fail     npm help version
+89 error System Linux 3.18.3-201.fc21.x86_64
+90 error command "node" "/usr/bin/npm" "publish" "./"
+91 error cwd /home/lstant/.node-red/nodes/epics
+92 error node -v v0.10.36
+93 error npm -v 1.3.6
+94 error code EPUBLISHCONFLICT
+95 verbose exit [ 1, true ]
