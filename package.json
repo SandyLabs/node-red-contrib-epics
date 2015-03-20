@@ -1,6 +1,6 @@
 {
     "name"         : "node-red-contrib-epics",
-    "version"      : "0.0.2",
+    "version"      : "0.9.1",
     "description"  : "An EPICS node for node-red",
     "author"       : {
         "name": "Laurence Stant",

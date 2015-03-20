@@ -20,4 +20,5 @@ In future I hope to add more functionality to the node-epics module, including a
 the node.
 
 MIT License (see license.txt for source)
+
 Copyright Laurence Stant (SandyLabs) 2015
